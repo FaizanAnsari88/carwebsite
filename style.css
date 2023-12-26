@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+   
+    height: 60px;
+}
+header{
+    height: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: larger;
+    
+    
+    
+}
+ul{
+    display: flex;
+    margin-right: 10px;
+    
+}
+li{
+    margin-top: 10px;
+    list-style-type: none;
+    margin-right: 70px;
+   
+}
+#logo{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: larger;
+    margin-left: 30px;
+    letter-spacing: 20px;
+    font-size: 30px;
+}
+a{
+   text-decoration: none; 
+   color:white;
+   font-family: 'Times New Roman';
+   font-size: 20px;
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/marutifronx.jpg);
+    background-size: 100% 100%;
+    animation: faizan 8s step-start infinite;
+    border-radius: 10px;
+   
+    
+}
+.main:hover{
+    opacity: 0.9;
+}
+#title1{
+    background-color: rgb(208, 205, 205);
+    width: 40%;
+    margin-left: 29%;
+}
+
+@keyframes faizan{
+    0%{
+        background-image: url(./images/marutifronx.jpg);
+        background-size: 100% 100%;
+    }
+    35%{
+        background-image: url(./images/harier.jpg);
+        background-size: 100% 100%;
+    }
+    75%{
+        background-image:url(./images/toyotarumion.jpg);    
+        background-size: 100% 100%;
+    }
+    100%{
+        background-image: url(./images/hyundaiexter.jpg);
+        background-size: 100% 100%;
+    }
+}
+
+input{
+    margin-top:5px;
+    font-size: large;
+    padding: 6px;
+    margin-right: 50px;
+}
+    
+button{
+    margin-top:10px;
+    font-size: 25px; 
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#h1{
+    text-align: center;
+    letter-spacing: 20px;
+    color: red;
+    font-size: 30px;
+    font-weight: 20px;
+    margin-top: 50PX;
+    margin-bottom: 20PX;
+    background-color:black;
+  
+    
+    padding: 30px;
+
+}
+#h2{
+    text-align: end;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+    color: gray;
+    font-size: 30px;
+    font-weight: 20px;
+    margin-top: 50PX;
+    margin-bottom: 20PX;
+    animation: h2 linear 10s infinite;
+}
+@keyframes h2 {
+    0%{
+        color: red;
+        width:40%;
+        margin-left: 20px;
+    }
+    35%{
+        color: green;
+        width: 60%;
+    }
+    75%{
+        color: yellow;
+        width:80%;
+    }
+    100%{
+        color: red;
+        width: 100%;
+    }
+
+}
+
+
+.card{
+    border: 2px solid gray;
+    margin: 10px;
+    box-shadow: 1px 1px 10px  gray;
+    border-radius: 10px;
+    
+}
+.card:hover{
+    opacity: 0.8;
+}
+
+img{
+    border-radius: 10px;
+}
+.main2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.maruti{
+    margin-left: 20px;
+    padding-bottom: 5px;
+    color:rgb(191, 185, 185);
+}
+.maruti span{
+    font-size: larger;
+    font-weight: 50px;
+    color: white;
+}
+.title{
+    font-family: sans-serif;
+    color: rgb(85, 82, 82);
+    font-size: x-large;
+    letter-spacing: 10px;
+    margin:10px;
+    
+    animation: title linear 15s infinite;
+}
+@keyframes title {
+    0%{
+        color: red;
+        
+    }
+    35%{
+        color: green;
+        
+    }
+    75%{
+        color: yellow;
+        
+    }
+    100%{
+        color: red;
+        
+    }
+
+}
+.shop{
+    color: red;
+    animation: shop 4s linear infinite;
+    font-size: 40px;
+}
+@keyframes shop{
+    0%{
+        color: red;
+    }
+    35%{
+        color: yellow;
+    }
+    75%{
+        color: green;
+    }
+    100%{
+        color: red;
+    }
+}
+
+/* logo brand.................... */
+#brand{
+    text-align: end;
+    word-spacing: 10px;
+    letter-spacing: 20px;
+    margin-top: 30px;
+    animation: brand linear 15s infinite;
+}
+@keyframes brand {
+    0%{
+        color: red;
+        width:30%
+    }
+    35%{
+        color: green;
+        width: 40%;
+    }
+    75%{
+        color: yellow;
+        width:80%;
+    }
+    100%{
+        color: red;
+        width: 100%;
+    }
+
+}
+.card1{
+   
+    border: 2px solid gray;
+    align-items: center;
+    box-shadow: 2px 2px 10px gray;
+    
+    
+    
+    
+}
+
+.container3{
+   margin-bottom: 30px;
+   margin-top: 50px;
+}
+
+.logoimage{
+    height: 80px;
+    width: 100%;
+    padding-top: 10px;
+   
+   
+}
+.main3{
+   margin-left: 15%;
+    display: flex;
+    text-align: center;
+
+  
+}
+.logo1{
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    font-size: larger;
+}
+
+
+#card4{
+    display: flex;  
+}
+h1{
+    margin: 20px;
+    margin-left: 40px;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 20px;
+    color: white;
+    margin-top: 50px;
+    
+}
+#contact{
+    width: 40%;
+    margin-left: 30%;
+    
+}
+
+.conatine6{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+    
+
+}
+#sorc{
+    height: 400px;
+    width: 100%;
+}
+.form{
+   height: 400px;  
+   width: 30%;
+   
+   text-align: center;
+   background-size: 100% 100%;
+   color: black;
+}
+label{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+
+    
+}
+.input1{
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+   
+}
+textarea{
+    padding-left: 10px;
+    font-size: 20px;
+}
+#text{
+    border: 2px solid white;
+    background-color: black;
+    width: 80%;
+    border-radius: 10px;
+}
+.ashnab{
+    height: 200px;
+    width: 200px;
+}
+.arkm{
+    height: 200px;
+    width: 200px;
+}
+.raquib{
+    height: 200px;
+    width: 200px;
+}
+.customers{
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+#happy{
+    
+    margin: 20px;
+    margin-left: 40px;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 20px;
+    color: gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer{
+    background-color:gray;
+    height: 70px;
+    color: white;
+    text-align: center;
+    word-spacing: 10px;
+    font-size: large;
+    padding: 12px 12px;
+    margin-top: 30px;
+}
